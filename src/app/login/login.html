@@ -1,0 +1,13 @@
+<div class="card-login">
+  <div class="titulo">🐾 PruebaVet</div>
+  <div class="subtitulo">Iniciar Sesión</div>
+
+  <input [(ngModel)]="username" placeholder="Email o usuario" class="input" type="text" />
+  <input [(ngModel)]="password" placeholder="Contraseña" class="input" type="password" />
+
+  <button (click)="login()" class="btn-login">Iniciar Sesión</button>
+
+  <div *ngIf="error" class="mensaje-error">
+    ❌ Contraseña incorrecta. Inténtalo de nuevo.
+  </div>
+</div>
