@@ -1,0 +1,37 @@
+/* Contenedor principal del header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo o título */
+.header .logo {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  word-wrap: break-word;
+}
+
+/* Navegación */
+.header nav {
+  display: flex;
+  gap: 24px;
+}
+
+.header nav a {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+  color: black;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}

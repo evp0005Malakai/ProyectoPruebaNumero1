@@ -1,0 +1,37 @@
+<div class="contenedor-padre">
+  <!-- Centro 1 -->
+  <div class="centro">
+    <div class="titulo">CENTRO 1</div>
+    <div class="mes">Octubre 2025</div>
+
+    <div class="dias-semana">
+      <div *ngFor="let dia of diasSemana">{{ dia }}</div>
+    </div>
+
+    <div class="dias">
+      <div *ngFor="let dia of calendarioCentro1"
+           class="dia"
+           [ngClass]="{ 'fuera-mes': !dia.actual }">
+        {{ dia.numero }}
+      </div>
+    </div>
+  </div>
+
+  <!-- Centro 2 -->
+  <div class="centro">
+    <div class="titulo">CENTRO 2</div>
+    <div class="mes">Octubre 2025</div>
+
+    <div class="dias-semana">
+      <div *ngFor="let dia of diasSemana">{{ dia }}</div>
+    </div>
+
+    <div class="dias">
+      <div *ngFor="let dia of calendarioCentro2"
+           class="dia"
+           [ngClass]="{ 'fuera-mes': !dia.actual }">
+        {{ dia.numero }}
+      </div>
+    </div>
+  </div>
+</div>

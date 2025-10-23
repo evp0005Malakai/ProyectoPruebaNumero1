@@ -1,0 +1,39 @@
+<div class="card-login">
+  <!-- Logo y nombre -->
+  <div class="logo">
+    <div class="logo-square-gray"></div>
+    <div class="logo-square-green"></div>
+    <div class="logo-text">VetLab</div>
+  </div>
+
+  <!-- Título -->
+  <div class="login-title">Iniciar Sesión</div>
+
+  <!-- Input Email/Usuario -->
+  <div class="input-container">
+    <input
+      type="text"
+      placeholder="Email o usuario"
+      [(ngModel)]="username"
+      class="input-field"
+    />
+  </div>
+
+  <!-- Input Contraseña -->
+  <div class="input-container">
+    <input
+      type="password"
+      placeholder="Contraseña"
+      [(ngModel)]="password"
+      class="input-field"
+    />
+  </div>
+
+  <!-- Mensaje de error -->
+  <div *ngIf="error" class="error-message">
+    Usuario o contraseña incorrectos
+  </div>
+
+  <!-- Botón Iniciar Sesión -->
+   <button class="btn-login" (click)="login()">Entrar</button>
+</div>

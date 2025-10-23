@@ -1,0 +1,105 @@
+/* Contenedor general de la barra */
+.navbar {
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 50%, rgba(65, 248, 185, 0.3) 100%);
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  outline: 1px solid black;
+  outline-offset: -1px;
+}
+
+/* Logo */
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.logo__square {
+  width: 38px;
+  height: 38px;
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+.logo__accent {
+  width: 32px;
+  height: 30px;
+  background: #42f9b9;
+  border-radius: 4px;
+}
+
+.logo__text {
+  color: black;
+  font-size: 36px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+/* Menú de navegación */
+.navbar__menu {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu__item {
+  color: black;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.menu__item:hover {
+  color: #42f9b9;
+}
+
+/* Botón Login */
+.navbar__login {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.login__btn {
+  background: #42f9b9;
+  border-radius: 12px;
+  outline: 1px solid black;
+  outline-offset: -1px;
+  padding: 10px 20px;
+  color: black;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.login__btn:hover {
+  background: #2cd9a0;
+}
+
+/* Texto central */
+.main-content {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.welcome-text {
+  color: #060606;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}

@@ -1,0 +1,42 @@
+/* Contenedor del sidebar */
+.sidebar {
+  width: 240px;
+  background-color: #f9f9f9;
+  padding: 32px 16px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  height: 100vh; /* ocupa toda la altura */
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de secciones */
+.sidebar .section-title {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  margin-bottom: 16px;
+  word-wrap: break-word;
+}
+
+/* Elementos de menú */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 16px;
+}
+
+.sidebar ul li a {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}

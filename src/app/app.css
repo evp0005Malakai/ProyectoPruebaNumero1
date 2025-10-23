@@ -1,0 +1,85 @@
+/* ----------------------------- */
+/* Tipografía principal          */
+/* ----------------------------- */
+.title-primary {
+  color: black;
+  font-size: 36px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  word-wrap: break-word;
+}
+
+/* ----------------------------- */
+/* Subtítulos o secciones        */
+/* ----------------------------- */
+.subtitle {
+  color: black;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  word-wrap: break-word;
+}
+
+/* ----------------------------- */
+/* Días de la semana             */
+/* ----------------------------- */
+.weekdays {
+  color: black;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 14.08px;
+  word-wrap: break-word;
+}
+
+/* ----------------------------- */
+/* Números de calendario grandes */
+/* ----------------------------- */
+.calendar-number-lg {
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 8.80px;
+  word-wrap: break-word;
+}
+
+/* ----------------------------- */
+/* Números de calendario pequeños*/
+/* ----------------------------- */
+.calendar-number-sm {
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+/* ----------------------------- */
+/* Clases específicas por número */
+/* ----------------------------- */
+.num-1, .num-2, .num-3, .num-4, .num-5,
+.num-6, .num-7, .num-8, .num-9 {
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 8.80px;
+  word-wrap: break-word;
+}
+
+.num-10, .num-11, .num-12, .num-13, .num-14,
+.num-15, .num-16, .num-17, .num-18, .num-19,
+.num-20, .num-21, .num-22, .num-23, .num-24,
+.num-25, .num-26, .num-27, .num-28, .num-29,
+.num-30, .num-31 {
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}

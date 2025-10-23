@@ -1,0 +1,21 @@
+/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+  --accent: #5AD2B1;
+  --bg: #F3F5F7;
+  --text-dark: #1F2937;
+  --muted: #A7A6A6;
+}
+
+html, body, #root, app-root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
